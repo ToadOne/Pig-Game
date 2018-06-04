@@ -1,0 +1,128 @@
+body {
+  background-color: #f5e5c0;
+  color: #2f3440;
+}
+.player1-score, .player2-score {
+
+	font-size: 25px;
+	
+}
+.scores {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-weight: bold;
+  padding: 15px;
+}
+.scores .score {
+  color: #b54a35;
+  font-size: 40px;
+}
+.gameboard {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.gameboard > h1 {
+  color: #3f5666;
+}
+
+.gameboard > h1 .player-name {
+  color: #b54a35;
+}
+.dices-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
+.dices-container > h1 {
+  color: #3f5666;
+}
+.dices-container .total {
+  color: #3f5666;
+  font-weight: bold;
+}
+.dices-container .total-value {
+  color: #b54a35;
+}
+.dices {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 10px;
+}
+.dices .dice {
+  padding: 15px;
+  background-color: #3f5666;
+  line-height: 15px;
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+  width: 15px;
+}
+
+.actions {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.actions button {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 calc(50% - 20px);
+          flex: 1 calc(50% - 20px);
+  background-color: #f8ca4d;
+  border: none;
+  border-radius: 2px;
+  -webkit-box-shadow: 2px 2px 4px #2f3440;
+          box-shadow: 2px 2px 4px #2f3440;
+  padding: 5px 15px;
+  margin: 10px;
+  outline: none;
+  font-weight: bold;
+  color: #3f5666;
+}
+.actions button:hover {
+  -webkit-filter: brightness(1.1);
+          filter: brightness(1.1);
+}
+.actions button:active {
+  -webkit-filter: brightness(0.6);
+          filter: brightness(0.6);
+}
+.stock-container {
+  font-weight: bold;
+  color: #3f5666;
+}
+.stock-container .stock {
+  color: #b54a35;
+}
+.winner {
+  display: none;
+  font-size: 30px;
+  color: red;
+}
